@@ -21,3 +21,11 @@ cargo test --features no_recur
 cargo doc --open
 cargo doc --features no_recur --open
 ```
+
+性能测试：递归方式和迭代方式
+
+```
+cargo run --example bench
+cargo run --example bench --features no_recur
+```
+
